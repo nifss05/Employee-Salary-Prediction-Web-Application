@@ -160,7 +160,7 @@ if submit_button:
     st.markdown(f"""
     <div class="prediction-box">
         💰 <b>Estimated Annual Salary:</b><br>
-        USD ${predicted_salary:,.2f}<br>
+        ₹ {predicted_salary:,.2f}<br>
         <h6>📌 This prediction is based on your provided inputs and the model's training data.<br>
         📈 Accuracy may vary depending on job type and experience levels. </h6>
     </div>
